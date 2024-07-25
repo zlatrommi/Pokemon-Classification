@@ -25,8 +25,8 @@
 3. Once everything is set up, ensure you have installed Jetson Inference and Docker Image from [Jetson Interface GitHub](http://github.com/dusty-nv/jetson-interface/blob/master/docs/building-repo-2).
 
 4. Change directories to `jetson-inference/python/training/classification/data` and download the Pokemon dataset using the command:
-wget https://www.kaggle.com/datasets/lantian773030/pokemonclassification -O pokemon_classification.tar.gz
-tar xvzf pokemon_classification.tar.gz
+`wget https://www.kaggle.com/datasets/lantian773030/pokemonclassification -O pokemon_classification.tar.gz`
+`tar xvzf pokemon_classification.tar.gz`
 5. Navigate back to `nvidia/jetson-inference/` and run the following command in your terminal to configure memory overcommitment: echo 1 | sudo tee /proc/sys/vm/overcommit_memory
 6. In the `jetson-inference` directory, run `./docker/run.sh` to start the Docker container. Once inside the container, navigate to `jetson-inference/python/training/classification`.
 7. Start the training script to re-train the network. Specify where the model should be saved and where the data is located:
