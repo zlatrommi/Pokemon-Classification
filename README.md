@@ -20,7 +20,7 @@
 
 2. Connect to Visual Studio Code using your IP address. Open a new terminal in Visual Studio Code to begin coding.
 
-3. Once everything is set up, ensure you have installed Jetson Inference and Docker Image from [Jetson Interface GitHub]https://github.com/dusty-nv/jetson-inference
+3. Once everything is set up, ensure you have installed Jetson Inference and Docker Image from [Jetson Interface GitHub] https://github.com/dusty-nv/jetson-inference
 
 4. Change directories to `jetson-inference/python/training/classification/data` and download the Pokemon dataset using the command:
 `wget https://www.kaggle.com/datasets/lantian773030/pokemonclassification -O pokemon_classification.tar.gz`
