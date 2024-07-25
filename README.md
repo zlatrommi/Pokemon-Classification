@@ -11,8 +11,6 @@
 - In conclusion, the algorithm teaches computers to sort things into the correct classes by showing them lots of examples. It learns from these examples and then makes predictions about new things based on what it learned. In my project, the AI classified different Pokemon.
 - Sources https://student.idtech.com/courses/331/modules 
 ## Running this project
-## Running this project
-
 ### Steps:
 
 1. Ensure you have a Jetson Nano (from NVIDIA) and log into Python with your Jetson Interface Nano.
@@ -22,7 +20,7 @@
 
 2. Connect to Visual Studio Code using your IP address. Open a new terminal in Visual Studio Code to begin coding.
 
-3. Once everything is set up, ensure you have installed Jetson Inference and Docker Image from [Jetson Interface GitHub](http://github.com/dusty-nv/jetson-interface/blob/master/docs/building-repo-2).
+3. Once everything is set up, ensure you have installed Jetson Inference and Docker Image from [Jetson Interface GitHub]https://github.com/dusty-nv/jetson-inference
 
 4. Change directories to `jetson-inference/python/training/classification/data` and download the Pokemon dataset using the command:
 `wget https://www.kaggle.com/datasets/lantian773030/pokemonclassification -O pokemon_classification.tar.gz`
