@@ -46,4 +46,5 @@ Check `jetson-inference/python/training/classification/models/pokemon/` for the 
  ```
 ![191](https://github.com/user-attachments/assets/581e65c1-4051-479b-ade0-8870095458fd)
 
-[View a video explanation here](video link)
+[[View a video explanation here](video link)
+](https://www.youtube.com/watch?v=HZiXbdMyyzw)
